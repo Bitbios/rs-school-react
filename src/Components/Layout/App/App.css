@@ -2,7 +2,9 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -39,4 +41,18 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-test-button-container {
+  display: flex;
+}
+
+.error-test-button {
+  margin-left: auto;
+  margin-top: 20px;
 }
